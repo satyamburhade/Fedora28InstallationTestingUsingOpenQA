@@ -5,7 +5,7 @@ use testapi;
 sub run
 {
 	
-	assert_screen "bootloader",30;
+	assert_screen "bootloader",300;
 
 	send_key "ret";
 
@@ -104,7 +104,7 @@ sub run
         type_string "poweroff";
         wait_idle 10;
         send_key "ret";
-	wait_idle 200;
+	wait_idle 300;
 
 
 
