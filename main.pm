@@ -4,5 +4,6 @@ use autotest;
 
 autotest::loadtest "tests/installationprocess.pm";
 
+
 1;
 
