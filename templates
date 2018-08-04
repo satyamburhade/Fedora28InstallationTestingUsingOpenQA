@@ -102,7 +102,7 @@
 		
 			{ key => "CURREL", value => "28"},
 			
-
+			
                         { key => "PACKAGE_SET", value => "default" },
 
                         { key => "DESKTOP", value => "gnome" },
@@ -132,6 +132,7 @@
                         { key => "PACKAGE_SET", value => "default" },
 
                         { key => "STORE_HDD_1", value => "disk_%FLAVOR%_%MACHINE%.qcow2" },
+			{ key => "INSTALLONLY", value => "1"},
 
                       ],
 
@@ -152,6 +153,7 @@
 
                   { key => "HDD_1", value => "disk_%FLAVOR%_%MACHINE%.qcow2" },
 
+		  { key => "EXTRATEST", value => "1"},	
                       ],
 
                     },

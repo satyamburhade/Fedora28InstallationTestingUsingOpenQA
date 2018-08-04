@@ -93,7 +93,7 @@ sub run
 	wait_idle 10;
 	type_password "UniversalFedora";
 	assert_and_click "SignInButton";
-	assert_screen "DesktopAfterLogin",100;
+	assert_screen "DesktopAfterLogin",300;
 
 	#Power off the system
 	wait_idle 10;
