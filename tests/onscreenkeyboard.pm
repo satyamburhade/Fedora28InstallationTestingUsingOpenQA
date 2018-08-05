@@ -1,4 +1,4 @@
-use base "installedtest";
+use base "basetest";
 use strict;
 use testapi;
 
